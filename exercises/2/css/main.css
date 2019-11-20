@@ -1,0 +1,18 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+img{
+    border: 10px groove cadetblue;
+}
+.guineaone{
+    border: 10px dashed red;
+}
+.guineatwo{
+    border: 10px dotted chartreuse;
+}
+.guineathree{
+    border: 10px double
+}
