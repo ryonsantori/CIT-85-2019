@@ -11,10 +11,11 @@ div {
 }
 
 img{
+    width: 200px;
+    box-sizing: border-box;
     border: 10px groove cadetblue;
-    border-radius: 100%;
     padding: 20px;
-    margin: 40px;
+
 
 }
 .guineaone{
