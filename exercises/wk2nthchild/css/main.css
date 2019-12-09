@@ -1,0 +1,32 @@
+body {
+    font-size: 36;
+}
+li:first-child {
+    color: green;
+}
+li:nth-child(even) {
+    background-color: pink;
+}
+li:nth-child(odd) {
+    background-color: red;
+}
+li:nth-child(37) {
+    background-color: yellow;
+}
+li:nth-last-child(10){
+    background-color: violet;
+}
+li:nth-child(10n+8){
+    background-color: black;
+}
+li:nth-child(3n+9) {
+    color: white;
+}
+li:last-child {
+    color: blue;
+}
+article:only-child{
+    font-size: 60px;
+    color: white;
+    background-color: black;
+}
