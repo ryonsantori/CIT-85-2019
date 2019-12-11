@@ -1,0 +1,16 @@
+/* all beneth a div  */
+div p {
+     color: tomato;
+ }
+/* all timmediately beneth a div */
+ div > p{
+     color: teal;
+ }
+/* select all siblings following the div */
+div ~ p{
+    color: thistle;
+}
+/* immediate sibling following a div */
+div + p {
+    color: violet;
+}
